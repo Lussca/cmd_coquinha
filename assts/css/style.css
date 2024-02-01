@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@900&display=swap');
+
+::-webkit-scrollbar {
+    width: 5px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 4px;
+}
+
+html {
+    scrollbar-width: thin;
+}
+
+html {
+    scrollbar-color: transparent; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.btn-custom {
+    background-color: #00000050;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #464646;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+.section {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-header {
+    margin-bottom: 25px;
+    font-size: 3em;
+}
+
+.card {
+    height: 100%;
+    background-size: cover;
+    color: #000000;
+}
+
+.card-title {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.card_1 {
+    background-image: url('/assts/image/top5/1lugar.png');
+}
+
+.card_2 {
+    background-image: url('/assts/image/top5/2lugar.png');
+}
+
+.card_3 {
+    background-image: url('/assts/image/top5/3lugar.png');
+}
+
+.card_4 {
+    background-image: url('/assts/image/top5/4lugar.png');
+}
+
+.card_5 {
+    background-image: url('/assts/image/top5/5lugar.png');
+}
+
+
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 8px );
+    border: 1px solid rgba(235, 235, 235, 0.37);
+    border-radius: 25px;
+}
+
+.neumorphism {
+    height: 18em;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+.card-text {
+    font-family: 'Honk', monospace;
+}
+
+.container {
+    height: 20em;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+h5 {
+    font-size: 1.5em;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+li {
+    height: 20rem !important;
+}
+
+#sobre {
+    background-image: url('/assts/image/backgrounds/background.jpg');
+    font-family: 'Honk', monospace;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#regras {
+    font-family: 'Honk', monospace;
+    color: #000000;
+}
+
+#top5 {
+    font-family: 'Honk', monospace;
+}
+
+#agenda {
+    background-image: url('/assts/image/backgrounds/background_agenda.jpg');
+    font-family: 'Honk', monospace;
+    color: #000000;
+}
+
+.evento h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-image: url('/assts/image/backgrounds/background.jpg');
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
+.footer {
+    max-height: 2em;
+}
+
+.footer-copyright {
+    margin-top: 20px;
+}
